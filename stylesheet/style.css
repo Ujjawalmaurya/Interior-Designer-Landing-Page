@@ -1,0 +1,135 @@
+/* ! root */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* ! body */
+body {
+    height: 100vh;
+    font-size: 60%;
+    /* font-family: 'Roboto', sans-serif; */
+    color: #fff;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .64), rgba(0, 0, 0, 0.64)),
+                url('../assets/pexels-jean-van-der-meulen-1457842.jpg');
+    background-position: top;
+    background-size:cover ;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 80vw;
+    margin: auto;
+}
+
+/*! Header */
+
+.header__logo {
+    height: 3rem;
+}
+
+header.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8rem;
+}
+
+.header__nav {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__right {
+    border-bottom: 2px solid #fff;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.header__nav-item {
+    font-size: 1.2rem;
+    margin-right: 2.5rem;
+}
+
+.header__contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.header__contact-icon {
+    font-size: 1.5rem;
+    margin-right: .8rem;
+}
+
+.header__contact-callus {
+    font-size: 0.8rem;
+}
+
+/* ! Hero Section */
+
+.hero__left {
+    width: 45%;
+    margin-top: 18vh;
+}
+
+.hero__left-heading {
+    font-size: 3.6rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+.hero__left-btn {
+    text-decoration: none;
+    font-size: 1rem;
+    border: 1px solid #fff;
+    border-radius: 2.5rem;
+    text-transform: uppercase;
+    color: #fff;
+    padding: .6rem 1.9rem;
+}
+
+.hero__box {
+    width: 15rem;
+    background-color: rgba(175, 174, 174, 0.454);
+    padding: 1rem;
+    margin-bottom: 3rem;
+}
+
+.hero__box-icondiv {
+    width: max-content;
+    background-color: #fff;
+    padding: .2rem 1rem;
+    border-radius: 1rem;
+    margin-bottom: .7rem;
+}
+
+.hero__box-icon {
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.hero__box-text {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+}
+
+.box1 {
+    position: absolute;
+    top: 25%;
+    right: 6%;
+}
+
+.box2 {
+    position: absolute;
+    bottom: 15%;
+    right: 30%;
+}
